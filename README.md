@@ -1,6 +1,6 @@
 # 2025_Gao-Z_apple_digest
 
-Microbial communities were recovered from apples using culture enrichments, then supplemented into into different food products. Survival of the natural and enriched microbiomes in the food matrices were evaluated under simulated gastric digestion.
+Microbial communities were recovered from apples using culture enrichments, then supplemented into into different food products. Survival of the natural and enriched microbiomes in the food matrices were evaluated under simulated gastric digestion. Data for 16S rRNA sequencing of the apple, enrichment, and digesta samples are available under NCBI BioProject accession PRJNA1358372.
 
 **Reference:** in review
 

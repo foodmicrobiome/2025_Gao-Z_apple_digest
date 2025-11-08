@@ -1,0 +1,56 @@
+﻿No,sample-id,is_control,sample_type,Sample,Sample_Description,Apple_type,Time_Point,Enrich_round,Enrich_pH,Digest_matrix,Composite_label,Composite_label2,qPCR_Cq,copies_16Sgene_ml,log_copies_16Sgene_ml,Shannon,Simpson
+1,qPCR_neg_ct-1,TRUE,control_library_prep,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2,qPCR_neg_ct-2,TRUE,control_library_prep,NA,NA,NA,NA,NA,NA,NA,NA,NA,34.19,8.60E+01,1.93,NA,NA
+3,zymo_pos_ct,TRUE,positive_ctrl,NA,NA,NA,NA,NA,NA,NA,NA,NA,16.02,4.46E+10,10.65,NA,NA
+4,ZG-1,FALSE,apple_digest,GD NT,GD native in PBS,GD,Native,NA,Native,NA,0Native_GD,0Native,26.95,2.56E+05,5.41,2.502,0.883
+5,ZG-2,FALSE,apple_digest,EP NT,EP native in PBS,EP,Native,NA,Native,NA,0Native_EP,0Native,24.29,4.85E+06,6.69,3.926,0.970
+6,ZG-3,FALSE,apple_digest,GD 7AS T180 1R,GD pH7-1D 1st round matrix AS T180,GD,Digest,1R,7,AS,Enrich-R1-GD-pH7_Digest-AS,Enrich-R1-pH7_Digest-AS,31.19,2.38E+03,3.38,2.760,0.928
+7,ZG-4,FALSE,apple_digest,EP 7DI T180 1R,EP pH7-1D 1st round matrix DI T180,EP,Digest,1R,7,DI,Enrich-R1-EP-pH7_Digest-DI,Enrich-R1-pH7_Digest-DI,33.36,2.15E+02,2.33,2.471,0.903
+8,ZG-5,FALSE,apple_digest,EP 7AS T180 1R,EP pH7-1D 1st round matrix AS T180,EP,Digest,1R,7,AS,Enrich-R1-EP-pH7_Digest-AS,Enrich-R1-pH7_Digest-AS,31.67,1.40E+03,3.15,2.423,0.902
+9,ZG-6,FALSE,apple_digest,GD 5DI T180 1R,GD pH5-3D 1st round matrix DI T180,GD,Digest,1R,5,DI,Enrich-R1-GD-pH5_Digest-DI,Enrich-R1-pH5_Digest-DI,33.30,2.30E+02,2.36,3.303,0.958
+10,ZG-7,FALSE,apple_digest,GD 5AS T180 1R,GD pH5-3D 1st round matrix AS T180,GD,Digest,1R,5,AS,Enrich-R1-GD-pH5_Digest-AS,Enrich-R1-pH5_Digest-AS,34.03,1.03E+02,2.01,3.157,0.951
+11,ZG-8,FALSE,apple_digest,EP 5DI T180 1R,EP pH5-3D 1st round matrix DI T180,EP,Digest,1R,5,DI,Enrich-R1-EP-pH5_Digest-DI,Enrich-R1-pH5_Digest-DI,32.01,9.53E+02,2.98,2.407,0.903
+12,ZG-9,FALSE,apple_digest,EP 5AS T180 1R,EP pH5-3D 1st round matrix AS T180,EP,Digest,1R,5,AS,Enrich-R1-EP-pH5_Digest-AS,Enrich-R1-pH5_Digest-AS,33.85,1.26E+02,2.10,1.867,0.824
+13,ZG-10,FALSE,apple_digest,GD 7CK T180 1R,GD pH7-1D 1st round matrix CK T180,GD,Digest,1R,7,CK,Enrich-R1-GD-pH7_Digest-CK,Enrich-R1-pH7_Digest-CK,32.50,5.56E+02,2.75,3.715,0.968
+14,ZG-11,FALSE,apple_digest,GD 7SP T180 1R,GD pH7-1D 1st round matrix SP T180,GD,Digest,1R,7,SP,Enrich-R1-GD-pH7_Digest-SP,Enrich-R1-pH7_Digest-SP,32.01,9.56E+02,2.98,3.298,0.957
+15,ZG-12,FALSE,apple_digest,EP 7CK T180 1R,EP pH7-1D 1st round matrix CK T180,EP,Digest,1R,7,CK,Enrich-R1-EP-pH7_Digest-CK,Enrich-R1-pH7_Digest-CK,27.36,1.63E+05,5.21,2.277,0.808
+16,ZG-13,FALSE,apple_digest,EP 7SP T180 1R,EP pH7-1D 1st round matrix SP T180,EP,Digest,1R,7,SP,Enrich-R1-EP-pH7_Digest-SP,Enrich-R1-pH7_Digest-SP,31.98,9.87E+02,2.99,2.920,0.938
+17,ZG-14,FALSE,apple_digest,GD 5CK T180 1R,GD pH5-3D 1st round matrix CK T180,GD,Digest,1R,5,CK,Enrich-R1-GD-pH5_Digest-CK,Enrich-R1-pH5_Digest-CK,27.19,1.95E+05,5.29,0.713,0.268
+18,ZG-15,FALSE,apple_digest,GD 5SP T180 1R,GD pH5-3D 1st round matrix SP T180,GD,Digest,1R,5,SP,Enrich-R1-GD-pH5_Digest-SP,Enrich-R1-pH5_Digest-SP,34.09,9.61E+01,1.98,2.543,0.909
+19,ZG-16,FALSE,apple_digest,EP 5CK T180 1R,EP pH5-3D 1st round matrix CK T180,EP,Digest,1R,5,CK,Enrich-R1-EP-pH5_Digest-CK,Enrich-R1-pH5_Digest-CK,33.21,2.55E+02,2.41,2.417,0.888
+20,ZG-17,FALSE,apple_digest,EP 5SP T180 1R,EP pH5-3D 1st round matrix SP T180,EP,Digest,1R,5,SP,Enrich-R1-EP-pH5_Digest-SP,Enrich-R1-pH5_Digest-SP,33.53,1.78E+02,2.25,2.693,0.924
+21,ZG-18,FALSE,apple_digest,GD 5W/O T180 1R,GD pH5-3D 1st round matrix W/O T180,GD,Digest,1R,5,W/O,Enrich-R1-GD-pH5_Digest-WO,Enrich-R1-pH5_Digest-WO,32.10,8.69E+02,2.94,2.559,0.882
+22,ZG-19,FALSE,apple_digest,EP 7W/O T180 1R,EP pH7-1D 1st round matrix W/O T180,EP,Digest,1R,7,W/O,Enrich-R1-EP-pH7_Digest-WO,Enrich-R1-pH7_Digest-WO,32.17,7.98E+02,2.90,3.118,0.952
+23,ZG-20,FALSE,apple_digest,EP 5W/O T180 1R,EP pH5-3D 1st round matrix W/O T180,EP,Digest,1R,5,W/O,Enrich-R1-EP-pH5_Digest-WO,Enrich-R1-pH5_Digest-WO,31.49,1.70E+03,3.23,2.162,0.845
+24,ZG-21,FALSE,apple_digest,GD NT DI T180 1R,GD native 1st round matrix DI T180,GD,Digest,1R,Native,DI,0Native-GD_Digest-DI,0Native_Digest-DI,31.97,1.00E+03,3.00,3.425,0.964
+25,ZG-22,FALSE,apple_digest,GD NT AS T180 1R,GD native 1st round matrix AS T180,GD,Digest,1R,Native,AS,0Native-GD_Digest-AS,0Native_Digest-AS,32.01,9.58E+02,2.98,2.266,0.893
+26,ZG-23,FALSE,apple_digest,EP NT DI T180 1R,EP native 1st round matrix DI T180,EP,Digest,1R,Native,DI,0Native-EP_Digest-DI,0Native_Digest-DI,36.71,5.31E+00,0.73,2.173,0.872
+27,ZG-24,FALSE,apple_digest,EP NT AS T180 1R,EP native 1st round matrix AS T180,EP,Digest,1R,Native,AS,0Native-EP_Digest-AS,0Native_Digest-AS,34.20,8.52E+01,1.93,1.896,0.827
+28,ZG-25,FALSE,apple_digest,GD 7P T180 3R,GD pH7-3D 3rd round matrix blended in apple peel T180 ,GD,Digest,3R,7,apple peel,Enrich-R3P-GD-pH7_Digest-P,Enrich-R3P-pH7_Digest-P,35.26,2.64E+01,1.42,2.511,0.911
+29,ZG-26,FALSE,apple_digest,GD 7F T180 3R,GD pH7-3D 3rd round matrix blended in apple flesh T180 ,GD,Digest,3R,7,apple flesh,Enrich-R3F-GD-pH7_Digest-F,Enrich-R3F-pH7_Digest-F,32.25,7.31E+02,2.86,3.470,0.963
+30,ZG-27,FALSE,apple_digest,EP 7P T180 3R,EP pH7-3D 3rd round matrix blended in apple peel T180 ,EP,Digest,3R,7,apple peel,Enrich-R3P-EP-pH7_Digest-P,Enrich-R3P-pH7_Digest-P,32.80,3.99E+02,2.60,3.027,0.946
+31,ZG-28,FALSE,apple_digest,EP 7F T180 3R,EP pH7-3D 3rd round matrix blended in apple flesh T180 ,EP,Digest,3R,7,apple flesh,Enrich-R3F-EP-pH7_Digest-F,Enrich-R3F-pH7_Digest-F,24.47,3.94E+06,6.60,4.068,0.975
+32,ZG-29,FALSE,apple_digest,GD 5P T180 3R,GD pH5-4D 3rd round matrix blended in apple peel T180 ,GD,Digest,3R,5,apple peel,Enrich-R3P-GD-pH5_Digest-P,Enrich-R3P-pH5_Digest-P,31.84,1.15E+03,3.06,4.044,0.979
+33,ZG-30,FALSE,apple_digest,GD 5F T180 3R,GD pH5-4D 3rd round matrix blended in apple flesh T180 ,GD,Digest,3R,5,apple flesh,Enrich-R3F-GD-pH5_Digest-F,Enrich-R3F-pH5_Digest-F,24.50,3.82E+06,6.58,3.805,0.962
+34,ZG-31,FALSE,apple_digest,EP 5P T180 3R,EP pH5-4D 3rd round matrix blended in apple peel T180 ,EP,Digest,3R,5,apple peel,Enrich-R3P-EP-pH5_Digest-P,Enrich-R3P-pH5_Digest-P,33.46,1.93E+02,2.29,2.846,0.934
+35,ZG-32,FALSE,apple_digest,EP 5F T180 3R,EP pH5-4D 3rd round matrix blended in apple flesh T180 ,EP,Digest,3R,5,apple flesh,Enrich-R3F-EP-pH5_Digest-F,Enrich-R3F-pH5_Digest-F,32.43,6.03E+02,2.78,2.908,0.938
+36,ZG-33,TRUE,control_DNA_extraction,NC 12/14,Negative control with 250ul CD1,NC,NA,NA,NA,NA,NA,NA,32.52,5.45E+02,2.74,NA,NA
+37,ZG-34,TRUE,control_DNA_extraction,NC 12/15,Negative control with 250ul CD1,NC,NA,NA,NA,NA,NA,NA,31.06,2.72E+03,3.43,NA,NA
+38,ZG-35,FALSE,apple_digest,GD 7-1 1R,GD pH7-1D in PBS apple A-C mixture 1st round,GD,Enrich,1R,7,NA,Enrich-R1-GD-pH7,Enrich-R1-pH7,14.92,1.51E+11,11.18,0.929,0.552
+39,ZG-36,FALSE,apple_digest,GD 5-3 1R,GD pH5-3D in PBS apple A-C mixture 1st round,GD,Enrich,1R,5,NA,Enrich-R1-GD-pH5,Enrich-R1-pH5,15.24,1.06E+11,11.02,0.362,0.143
+40,ZG-37,FALSE,apple_digest,EP 7-1 1R,EP pH7-1D in PBS apple A-C mixture 1st round,EP,Enrich,1R,7,NA,Enrich-R1-EP-pH7,Enrich-R1-pH7,15.29,1.00E+11,11.00,1.543,0.738
+41,ZG-38,FALSE,apple_digest,EP 5-3 1R,EP pH5-3D in PBS apple A-C mixture 1st round,EP,Enrich,1R,5,NA,Enrich-R1-EP-pH5,Enrich-R1-pH5,17.19,1.23E+10,10.09,1.210,0.652
+42,ZG-39,FALSE,apple_digest,GD 7-1 2R,GD pH7-1D in PBS apple A-C mixture 2nd round,GD,Enrich,2R,7,NA,Enrich-R2-GD-pH7,Enrich-R2-pH7,17.52,8.56E+09,9.93,1.521,0.689
+43,ZG-40,FALSE,apple_digest,GD 5-3 2R,GD pH5-3D in PBS apple A-C mixture 2nd round,GD,Enrich,2R,5,NA,Enrich-R2-GD-pH5,Enrich-R2-pH5,19.30,1.20E+09,9.08,1.264,0.625
+44,ZG-41,FALSE,apple_digest,EP 7-1 2R,EP pH7-1D in PBS apple A-C mixture 2nd round,EP,Enrich,2R,7,NA,Enrich-R2-EP-pH7,Enrich-R2-pH7,16.41,2.90E+10,10.46,1.793,0.777
+45,ZG-42,FALSE,apple_digest,EP 5-3 2R,EP pH5-3D in PBS apple A-C mixture 2nd round,EP,Enrich,2R,5,NA,Enrich-R2-EP-pH5,Enrich-R2-pH5,18.41,3.18E+09,9.50,1.767,0.807
+46,ZG-43,FALSE,apple_digest,GD 7P 3R,GD  pH7-3D blended in apple peel A-C 3rd round,GD,Enrich,3R,7,NA,Enrich-R3P-GD-pH7,Enrich-R3P-pH7,16.72,2.08E+10,10.32,0.830,0.386
+47,ZG-44,FALSE,apple_digest,GD 7F 3R,GD  pH7-3D blended in apple flesh A-C 3rd round,GD,Enrich,3R,7,NA,Enrich-R3F-GD-pH7,Enrich-R3F-pH7,20.53,3.06E+08,8.49,1.183,0.608
+48,ZG-45,FALSE,apple_digest,EP 7P 3R,EP  pH7-3D blended in apple peel A-C 3rd round,EP,Enrich,3R,7,NA,Enrich-R3P-EP-pH7,Enrich-R3P-pH7,16.60,2.36E+10,10.37,0.382,0.223
+49,ZG-46,FALSE,apple_digest,EP 7F 3R,EP  pH7-3D blended in apple flesh A-C 3rd round,EP,Enrich,3R,7,NA,Enrich-R3F-EP-pH7,Enrich-R3F-pH7,16.33,3.19E+10,10.50,0.557,0.275
+50,ZG-47,FALSE,apple_digest,GD 5P 3R,GD pH5-4D blended in apple peel A-C 3rd round,GD,Enrich,3R,5,NA,Enrich-R3P-GD-pH5,Enrich-R3P-pH5,20.24,4.23E+08,8.63,0.838,0.362
+51,ZG-48,FALSE,apple_digest,GD 5F 3R,GD pH5-4D blended in apple flesh A-C 3rd round,GD,Enrich,3R,5,NA,Enrich-R3F-GD-pH5,Enrich-R3F-pH5,18.46,3.03E+09,9.48,0.396,0.159
+52,ZG-49,FALSE,apple_digest,EP 5P 3R,EP pH5-4D blended in apple peel A-C 3rd round,EP,Enrich,3R,5,NA,Enrich-R3P-EP-pH5,Enrich-R3P-pH5,23.15,1.70E+07,7.23,1.109,0.379
+53,ZG-50,FALSE,apple_digest,EP 5F 3R,EP pH5-4D blended in apple flesh A-C 3rd round,EP,Enrich,3R,5,NA,Enrich-R3F-EP-pH5,Enrich-R3F-pH5,23.90,7.45E+06,6.87,0.133,0.041
+54,ZG-51,FALSE,apple_digest,GD 7DI T180,GD pH7-1D 1st round matrix DI T180,GD,Digest,1R,7,DI,Enrich-R1-GD-pH7_Digest-DI,Enrich-R1-pH7_Digest-DI,34.89,3.96E+01,1.60,3.114,0.953
+55,ZG-52,FALSE,apple_digest,GD 7W/O T180,GD pH7-1D 1st round matrix W/O T180,GD,Digest,1R,7,W/O,Enrich-R1-GD-pH7_Digest-WO,Enrich-R1-pH7_Digest-WO,34.58,5.60E+01,1.75,3.789,0.975

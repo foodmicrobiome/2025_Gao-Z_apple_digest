@@ -1,0 +1,68 @@
+
+<path_to_'apple_microbiome/sequencing_data'_directory>
+
+## Cutadapt to remove adapters and trim raw reads to generate 'cleaned' reads
+
+# function R1 and R2 inputs
+cutadapt -a AGATCGGAAGAG -A AGATCGGAAGAG --trim-n -m 100 -q 20 -o cleaned_reads/$R1_clean -p cleaned_reads/$R2_clean raw_reads/$R1 raw_reads/$R2
+
+
+## QIIME2 for microbiome
+
+# activate environment
+conda activate qiime2-amplicon-2023.9
+
+# import paired-end cleaned reads as qiime file
+qiime tools import \
+  --type 'SampleData[PairedEndSequencesWithQuality]' \
+  --input-path cleaned_reads \
+  --input-format CasavaOneEightSingleLanePerSampleDirFmt \
+  --output-path qiime_out/qiime_files/demux-paired-end.qza
+
+# vizualize data quality
+qiime demux summarize \
+  --i-data qiime_out/qiime_files/demux-paired-end.qza \
+  --o-visualization qiime_out/qiime_viz/demux-paired-end_viz.qzv
+
+# de-noise reads with dada
+qiime dada2 denoise-paired \
+  --i-demultiplexed-seqs qiime_out/qiime_files/demux-paired-end.qza \
+  --p-trunc-q 10 --p-trunc-len-f 286 --p-trunc-len-r 217 \
+  --p-n-threads 8 \
+  --o-table qiime_out/qiime_files/dada-table.qza \
+  --o-representative-sequences qiime_out/qiime_files/dada-rep-seqs.qza \
+  --o-denoising-stats qiime_out/qiime_files/dada-denoising-stats.qza
+
+# summarize feature table
+qiime feature-table summarize \
+  --i-table qiime_out/qiime_files/dada-table.qza \
+  --o-visualization qiime_out/qiime_viz/dada-table.qzv \
+  --m-sample-metadata-file metadata/sample-metadata.tsv
+
+# tabulate feature table
+qiime feature-table tabulate-seqs \
+  --i-data qiime_out/qiime_files/dada-rep-seqs.qza \
+  --o-visualization qiime_out/qiime_viz/dada-rep-seqs.qzv
+
+# taxonomic analysis using the Silva 97 classifier
+qiime feature-classifier classify-sklearn \
+  --p-n-jobs 8 \
+  --i-classifier reference_dbs/silva-97-classifier.qza \
+  --i-reads qiime_out/qiime_files/dada-rep-seqs.qza \
+  --o-classification qiime_out/qiime_files/taxonomy-silva-97.qza
+  
+# print taxonomy info
+qiime metadata tabulate \
+  --m-input-file qiime_out/qiime_files/taxonomy-silva-97.qza \
+  --o-visualization qiime_out/qiime_viz/taxonomy-silva-97.qzv 
+  
+# print taxonomy barplot
+qiime taxa barplot \
+  --i-table qiime_out/qiime_files/dada-table.qza \
+  --i-taxonomy qiime_out/qiime_files/taxonomy-silva-97.qza \
+  --m-metadata-file metadata/sample-metadata.tsv \
+  --o-visualization qiime_out/qiime_viz/taxa-bar-plots-silva-97.qzv
+
+# run qiime2viw (https://view.qiime2.org/) on 'qiime_out/qiime_viz/taxa-bar-plots-silva-97.qzv'
+# taxa counts tables for levels 2 to 6 (phylum to genus) exported
+# all taxa counts tables (transposed with manual edit) can be found in 'apple_microbiome/sample_data/taxa_tables'
